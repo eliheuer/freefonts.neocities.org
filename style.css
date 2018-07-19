@@ -15,8 +15,46 @@ h1 {
     margin: 0;
     color: red;
     font-family: 'Dosis-VF', sans-serif;
+    margin-bottom: 64px;
+}
+
+p {
+    margin: 0;
+    color: black;
+    font-size: 18px;
+}
+
+hr {
+    margin: 0;
+    style: solid;
+    height: 2px;
+}
+
+.helvetica {
+    font-family: 'Helvetica', sans-serif;
 }
 
 .gflive {
     font-family: 'Dosis', sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 16px;
+  background-color: #121212;
+  padding: 32px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.99);
+  text-align: left;
+  padding: 16px;
+  margin: 0;
+  font-size: 36px;
+}
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
